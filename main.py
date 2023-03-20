@@ -8,4 +8,14 @@ if k=='Yes':
     g = input('Which game you want to play?  1. Stone Paper Scissor')
 if g=='1':
     print('Ok You go first')
-    u=input()
+    u=input('Your Turn')
+    if u=='Scissor':
+        print('Rock')
+        if u=='Paper':
+            print('Scissor')
+            if u=='Rock':
+                print('Paper')
+                print('I won ')
+                print('\U0001F923')
+
+
