@@ -26,3 +26,8 @@ if g=='1':
             print('Better luck next time')
             print('Thanks for trying my program')
             print('made by Tanishq <3')
+        import random
+
+        mylist = ["apple", "banana", "]
+
+        print(random.choice(mylist))
