@@ -16,7 +16,7 @@ if g=='1':
     u=input('Your Turn')
    # Elseif+Input
     if u=='Scissor':
-        print('Rock')
+        print('Rock')a
         print('Better luck next time')
         if u == 'Rock':
             print('Paper')
